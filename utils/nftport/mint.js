@@ -19,7 +19,7 @@ const {
   CHAIN,
   GENERIC,
 } = require(`${basePath}/src/config.js`);
-const _limit = RateLimit(1); // Currently, minting is limited to 1/second.
+const _limit = RateLimit(0.1); // Currently, minting is limited to 1/second.
 
 const ipfsMetasFile = GENERIC
   ? `${basePath}/build/ipfsMetasGeneric/_ipfsMetas.json`
