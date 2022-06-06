@@ -45,7 +45,7 @@ const CONTRACT_NAME = 'Baby Elephant Club';
 const CONTRACT_SYMBOL = 'BEC';
 const CONTRACT_TYPE = 'erc721';
 const MINT_TO_ADDRESS = '0xb7Fd707C8f295180D88b82d1Ac6753B012BCb1D0';
-const CHAIN = 'rinkeby';
+const CHAIN = 'polygon';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xb7Fd707C8f295180D88b82d1Ac6753B012BCb1D0"; // Address that will receive the royalty
